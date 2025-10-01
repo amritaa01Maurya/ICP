@@ -4,10 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Longest_Substring_Without_Repeating_Characters {
-    // 
-    // 
-    // 
-    // 
     public static int lengthOfLongestSubstring(String st) {
         int l = 0;
         int maxLen = 0;
