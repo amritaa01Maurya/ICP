@@ -3,7 +3,6 @@ package Day5;
 public class Lemonade_Change {
     public static boolean lemonadeChange(int[] bills) {
         int n = bills.length;
-        int totChange = 0;
         int b_5 = 0;
         int b_10 = 0;
         for(int i=0;i<n;i++){
