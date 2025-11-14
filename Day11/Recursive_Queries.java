@@ -38,5 +38,6 @@ public class Recursive_Queries {
             int ans = count[k][r] - count[k][l-1];
             System.out.println(ans);
         }
+        
     }
 }
