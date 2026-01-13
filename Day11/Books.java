@@ -22,16 +22,6 @@ public class Books {
             }
             ans = Math.max(ans, r - l + 1);
         }
-        // int[][] dp= new int[n+1][t+1];
-        // for(int i=1;i<=n;i++){
-        //     for(int j=1;j<=t;j++){
-        //         if(arr[i-1]<=j){
-        //             dp[i][j]=Math.max(dp[i-1][j],dp[i-1][j-arr[i-1]]+1);
-        //         }else{
-        //             dp[i][j]=dp[i-1][j];
-        //         }
-        //     }
-        // }
         System.out.println(ans);
     }
 }
