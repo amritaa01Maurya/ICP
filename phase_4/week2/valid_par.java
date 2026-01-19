@@ -9,16 +9,27 @@ public class valid_par {
             if(s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '['){
                 st.push(s.charAt(i));
             }else{
-                if(s.charAt(i) == ')' && st.peek() == '('){
-                    st.pop();
+                if(s.charAt(i) == ')'){
+                    if(!st.isEmpty() && st.peek() == '('){
+                        st.pop();
+                    }else{
+                        return false;
+                    }  
                 }
-                if(s.charAt(i) == '}' && st.peek() == '{'){
-                    st.pop();
+                if(s.charAt(i) == '}'){
+                    if(!st.isEmpty() && st.peek() == '{'){
+                        st.pop();
+                    }else{
+                        return false;
+                    }
                 }
-                if(s.charAt(i) == ']' && st.peek() == '['){
-                    st.pop();
+                if(s.charAt(i) == ']'){
+                    if(!st.isEmpty() && st.peek() == '['){
+                        st.pop();
+                    }else{
+                        return false;
+                    }
                 }
-
             }
         }
         return st.isEmpty();
