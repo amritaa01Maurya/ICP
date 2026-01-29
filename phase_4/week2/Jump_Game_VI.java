@@ -28,7 +28,9 @@ public class Jump_Game_VI {
     }
 
     public static void main(String[] args) {
-        int[] arr = {}
+        int[] arr = {1,-1,-2,4,-7,3};
+        int k = 2;
+        System.out.println(maxResult(arr, k));
     }
     
 }
