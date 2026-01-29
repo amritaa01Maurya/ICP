@@ -37,5 +37,6 @@ public class Count_Subarrays_With_Fixed_Bounds {
         int[] arr = {1,3,5,2,7,5};
         int mink = 2;
         int maxK = 5;
+        System.out.println(countSubarrays(arr, mink, maxK));
     }
 }
