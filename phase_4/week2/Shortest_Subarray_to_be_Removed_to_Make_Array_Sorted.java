@@ -33,6 +33,8 @@ public class Shortest_Subarray_to_be_Removed_to_Make_Array_Sorted {
         return ans;
     } 
        public static void main(String[] args) {
-            int[] arr = {}
+            int[] arr = {1,2,3,10,4,2,3,5};
+
+            System.out.println(findLengthOfShortestSubarray(arr));
     }
 }
