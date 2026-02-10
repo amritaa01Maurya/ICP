@@ -1,3 +1,7 @@
+
+import java.util.*;
+
+public class Remove_K_Digits {
 class Solution {
     public String removeKdigits(String s, int k) {
         Stack<Integer> st = new Stack<>();
@@ -23,4 +27,5 @@ class Solution {
         }
         return sb.isEmpty()?"0":sb.toString();
     }
+}
 }

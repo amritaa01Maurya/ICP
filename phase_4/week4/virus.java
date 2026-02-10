@@ -2,7 +2,7 @@ package phase_4.week4;
 
 import java.util.*;
 
-public class cf {
+public class virus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
